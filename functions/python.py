@@ -22,3 +22,13 @@ name = 'jane'
 print(f'Hello {name}')
 
 print(function('Godfrey'))
+
+
+age = 13
+
+def divide_num(age, height):
+	return age * height
+
+outcome = divide_num(12, 6)
+
+print(outcome)
