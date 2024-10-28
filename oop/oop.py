@@ -31,7 +31,9 @@ print(f"{se1.name} is a {se1.level} software Engineer with a salary of {se1.sala
 print(f"{se2.name} is a {se2.level} software Engineer with a salary of {se2.salary}")
 
 se1.code()
+se2.code()
 se1.code_in_languages("Python")
 se2.code_in_languages("C")
 print(se2.infor())
-print(se2)
+print(se1.infor())
+# print(se2)
