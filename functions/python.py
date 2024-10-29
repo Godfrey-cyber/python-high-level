@@ -32,3 +32,14 @@ def divide_num(age, height):
 outcome = divide_num(12, 6)
 
 print(outcome)
+print("\n")
+
+nums = ['12', '10', '21', '15', '23', '34', '65', '34']
+
+def aggregate(nums, num_2):
+	for num in nums:
+	    print(num)
+
+result = aggregate(nums, 6)
+
+print(result)
